@@ -1,0 +1,73 @@
+/* main.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #004080;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+form {
+    margin-top: 15px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #004080;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #003060;
+}
+
+.sql-result {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #e8f0fe;
+    border: 1px solid #004080;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 0.95em;
+    white-space: pre-wrap;
+}
